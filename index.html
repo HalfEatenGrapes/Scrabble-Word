@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="game-name">
+      <h1>Scrabble</h1>
+      <small>is your word is allowed?</small>
+      <h2>Enter your word</h2>
+    </div>
+
+    <div class="word-input">
+      <form class="entry" id="word-form">
+        <input type="search" id="word" placeholder="what's the word??"></input>
+        <button type="submit" hidden></button>
+      </form>
+    </div>
+    
+    <div class="response">
+      <div class="allowable">
+        <h3 class="congrats-sorry">let's see... </h3>
+        <p><span class="allowed">  </span></p>
+      </div>
+      <div class="points">
+          <span class="num-of-points"> </span>  
+      </div>
+      <div class="part-of-speech"> </div>
+      <div class="pronounced">
+        <a class="audio"
+          href="#"
+          > </a
+        >
+      </div>
+      <div class="deffinition"> 
+      </div>
+    </div>
+  </body>
+</html>

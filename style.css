@@ -1,0 +1,86 @@
+html body {
+  padding: 0;
+  margin: 0;
+  background-color: #e0cbaf;
+  background: url(blank-scrabble-board.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  color: #575757;
+}
+
+.game-name {
+  text-align: center;
+  position: relative;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+/* changes backgroud opacity to make text more readable */
+.game-name::after {
+  content: "";
+  background-color: #e0cbaf;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+input {
+  padding: 50px;
+  font-size: larger;
+  text-align: center;
+  background-color: #e0cbaf;
+  border-color: #26a3c9;
+  border-radius: 5px;
+  border-style: ridge;
+}
+
+input::placeholder {
+  color: #ca7a8b;
+}
+
+input:focus {
+  outline: none;
+  background-color: #e0cbaf;
+}
+
+.word-input {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.response {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  position: relative;
+}
+
+.response::after {
+  content: "";
+  background-color: #e0cbaf;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+/* colors to use
+#dfc9ae
+#fffbfc
+#575757
+#b7cccd
+#26a3c9
+#d2b1b8
+#ca7a8b
+*/
